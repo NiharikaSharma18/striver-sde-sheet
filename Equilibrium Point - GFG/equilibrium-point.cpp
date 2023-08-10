@@ -35,7 +35,7 @@ class Solution{
         }
         if(left==0 && right==0)
         return 1;
-        else if(i==j && right==left)
+        else if(right==left)
         return i+1;
         else
         return -1;
